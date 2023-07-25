@@ -1,0 +1,26 @@
+.content-3{
+    font-style:italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color:#1F2937;
+    background-color: #E5E7EB;
+}
+
+.random{
+    font-weight:bolder;
+    font-size:36px;
+    color:#1F2937
+}
+
+.content-4-text-1, button{
+    background-color:#3882F6
+}
+
+.logo{
+    font-size:24px;
+    color:#F9FAF8
+}
+
+.content-1, foot{
+    background-color: #1F2937;
+}
