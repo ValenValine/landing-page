@@ -6,7 +6,7 @@
     background-color: #E5E7EB;
 }
 
-.random{
+information{
     font-weight:bolder;
     font-size:36px;
     color:#1F2937
@@ -21,6 +21,21 @@
     color:#F9FAF8
 }
 
-.content-1, foot{
+.content-1{
+    background-color: #1F2937;
+}
+
+h1{
+    font-size:48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+h2{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.footer{
     background-color: #1F2937;
 }
