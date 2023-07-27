@@ -20,10 +20,11 @@ body{
     background-color: #E5E7EB;
 }
 
-information{
+.information{
     font-weight:bolder;
     font-size:36px;
-    color:#1F2937
+    color:#1F2937;
+    text-align: center;
 }
 
 .content-4-text-1, button{
@@ -71,15 +72,19 @@ a{
 }
 
 .header{
-    padding:20px 50px;
+    padding-top:30px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:100px;
     margin:0;
     display:flex;
     flex-direction: column;
     gap: 20px;
 }
 
-img{
-    width:300px;
+#image{
+    width:400px;
+    height:200px;
 }
 
 .header-2{
@@ -89,12 +94,25 @@ img{
 }
 
 button{
-    width:50px;
-    vertical-align:;
+    width:150px;
+    vertical-align: bottom;
 }
 
 .header-2-content{
     display:flex;
     flex-direction: column;
     gap:20px;
+    justify-content: space-between;
+}
+
+.content-2{
+    padding:70px;
+}
+
+.information-list{
+    display:flex;
+}
+
+.text{
+    width:200px;
 }
