@@ -18,6 +18,8 @@ body{
     font-size: 36px;
     color:#1F2937;
     background-color: #E5E7EB;
+    text-align: center;
+    padding:50px;
 }
 
 .information{
@@ -106,11 +108,15 @@ button{
 }
 
 .content-2{
-    padding:70px;
+    padding:30px;
 }
 
 .information-list{
     display:flex;
+    justify-content: center;
+    gap:10px;
+    padding-left:30px;
+    padding-right:30px;
 }
 
 .text{
