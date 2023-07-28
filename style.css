@@ -66,8 +66,14 @@ a{
     background-color:slategrey;
     width:150px;
     vertical-align: bottom;
-    height: 30px;
-    border:none;
+    height: 35px;
+    border-radius:7px;
+    border-color: transparent;
+}
+
+.hi:hover{
+    background-color: darkgray;
+    transition:0.7s;
 }
 
 .hero{
@@ -177,9 +183,22 @@ li{
 
 .action{
     background-color:slategrey;
-    border:none;
+    border:transparent;
+    border-radius:8px;
     height:40px;
     width:100px;
+    box-shadow:0 5px;
+}
+
+.action:hover{
+    background-color: dimgray;
+    transition:0.7px;
+    transform:translateY(3px)
+}
+
+.action:active{
+    background-color:dimgray;
+    box-shadow: 0;
 }
 
 
